@@ -18,21 +18,21 @@ Route::group(['domain' => 'flatsite.dev.idealtechllc.com'], function () {
 });
 Route::group(['domain' => 'crimm.me'], function () {
     Route::get('/', function () {
-        return "Crimm";
+        return "Crimm is being redeveloped for new adventures. Please check back soon.";
     });
 });
 Route::group(['domain' => 'rusty.ms'], function () {
     Route::get('/', function () {
-        return "Rusty";
+        return "Rusty.MS is being redeveloped for new adventures. Please check back soon.";
     });
 });
 Route::group(['domain' => 'pickup.nwraasoccer.com'], function () {
     Route::get('/', function () {
-        return "Pickup";
+        return "Pickup is being redeveloped for new adventures. Please check back soon.";
     });
 });
 Route::group(['domain' => 'idealtechllc.com'], function () {
     Route::get('/', function () {
-        return "Ideal";
+        return "Ideal is being redeveloped for new adventures. Please check back soon.";
     });
 });
