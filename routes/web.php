@@ -23,7 +23,10 @@ Route::group(['domain' => 'crimm.me'], function () {
 });
 Route::group(['domain' => 'rusty.ms'], function () {
     Route::get('/', function () {
-        return view('rustyms');
+        return "Rusty.ms is being redeveloped for new adventures. Please check back soon.";
+    });
+    Route::get('/test', function () {
+        return view(rustyms);
     });
 });
 Route::group(['domain' => 'pickup.nwraasoccer.com'], function () {
