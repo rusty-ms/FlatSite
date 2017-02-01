@@ -97,70 +97,79 @@
         });
     </script>
 
+
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="col-lg-6 col-sm-6">
-    <div class="card hovercard">
-        <div class="card-background">
-            <img class="card-bkimg" alt="" src="http://lorempixel.com/100/100/people/9/">
-            <!-- http://lorempixel.com/850/280/people/9/ -->
-        </div>
-        <div class="useravatar">
-            <img alt="" src="http://lorempixel.com/100/100/people/9/">
-        </div>
-        <div class="card-info"> <span class="card-title">Rusty</span>
+<div class="container">
+    <div class="row">test</div>
+    <div class="row">
+
+        <div class="col-lg-6 col-sm-6">
+            <div class="card hovercard">
+                <div class="card-background">
+                    <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
+                    <!-- http://lorempixel.com/850/280/people/9/ -->
+                </div>
+                <div class="useravatar">
+                    <img alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
+                </div>
+                <div class="card-info"> <span class="card-title">Rusty</span>
+
+                </div>
+            </div>
+            <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        <div class="hidden-xs">About</div>
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                        <div class="hidden-xs">Projects</div>
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <div class="hidden-xs">Updates</div>
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" id="following" class="btn btn-default" href="#tab4" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <div class="hidden-xs">Portfolio</div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="well">
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="tab1">
+                        <h3>About Me</h3>
+                    </div>
+                    <div class="tab-pane fade in" id="tab2">
+                        <h3>Current projects</h3>
+                    </div>
+                    <div class="tab-pane fade in" id="tab3">
+                        <h3>Interests</h3>
+                    </div>
+                    <div class="tab-pane fade in" id="tab4">
+                        <h3>Portfolio</h3>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
-    <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
-        <div class="btn-group" role="group">
-            <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                <div class="hidden-xs">About</div>
-            </button>
-        </div>
-        <div class="btn-group" role="group">
-            <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-                <div class="hidden-xs">Projects</div>
-            </button>
-        </div>
-        <div class="btn-group" role="group">
-            <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                <div class="hidden-xs">Updates</div>
-            </button>
-        </div>
-        <div class="btn-group" role="group">
-            <button type="button" id="following" class="btn btn-default" href="#tab4" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                <div class="hidden-xs">Portfolio</div>
-            </button>
-        </div>
-    </div>
-
-    <div class="well">
-        <div class="tab-content">
-            <div class="tab-pane fade in active" id="tab1">
-                <h3>About Me</h3>
-            </div>
-            <div class="tab-pane fade in" id="tab2">
-                <h3>Current projects</h3>
-            </div>
-            <div class="tab-pane fade in" id="tab3">
-                <h3>Interests</h3>
-            </div>
-            <div class="tab-pane fade in" id="tab4">
-                <h3>Portfolio</h3>
-            </div>
-        </div>
-    </div>
-
 </div>
 
+<!-- JS -->
+<script src="https://use.fontawesome.com/7580b066b9.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
