@@ -97,7 +97,13 @@
 </head>
 <body>
 <div class="container">
-    <div class="row "><div class="col-lg-8 col-sm-10 col-lg-offset-2"test</div>
+    <div class="row ">
+            <div class="col-xs-5 text-center"><a class="btn btn-social-icon btn-twitter"><span class="fa fa-twitter"></span></a></div>
+            <div class="col-xs-5 text-center"><a class="btn btn-social-icon btn-github"><span class="fa fa-github"></span></a></div>
+            <div class="col-xs-5 text-center"><a class="btn btn-social-icon btn-facebook"><span class="fa fa-facebook"></span></a></div>
+            <div class="col-xs-5 text-center"><a class="btn btn-social-icon btn-linkedin"><span class="fa fa-linkedin"></span></a></div>
+                <div class="col-xs-5 text-center"><a class="btn btn-social-icon btn-google"><span class="fa fa-google"></span></a></div>
+    </div>
     <div class="row">
 
         <div class="col-lg-10 col-sm-10 col-lg-offset-1">
