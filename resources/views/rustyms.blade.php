@@ -97,10 +97,10 @@
 </head>
 <body>
 <div class="container">
-    <div class="row">test</div>
+    <div class="row "><div class="col-lg-8 col-sm-10 col-lg-offset-2"test</div>
     <div class="row">
 
-        <div class="col-lg-6 col-sm-6">
+        <div class="col-lg-10 col-sm-10 col-lg-offset-1">
             <div class="card hovercard">
                 <div class="card-background">
                     <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
