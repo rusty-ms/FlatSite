@@ -101,6 +101,11 @@
     <link rel="stylesheet" href="/css/bootstrap-social.css" />
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="description" content="Rusty MS About Me Website">
+    <meta name="keywords" content="Rusty,Dev,Developer,PHP, MVC,OctoberCMS,SQL">
+    <meta name="author" content="Rusty">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <title>Rusty</title>
@@ -109,10 +114,10 @@
     <div class="row ">&nbsp;</div>
     <div class="row ">
         <div class="col-lg-10 col-sm-10 col-lg-offset-1 text-center">
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></div>
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-github"><span class="fa fa-github"></span></a></div>
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></div>
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-linkedin"><span class="fa fa-linkedin"></span></a></div>
+            <div class="col-xs-2 text-center"><a href="http://twitter.com/rustyinms"class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></div>
+            <div class="col-xs-2 text-center"><a href="http://github.com/rustyms" class="btn btn-social-icon btn-lg btn-github"><span class="fa fa-github"></span></a></div>
+            <div class="col-xs-2 text-center"><a href="http://facebook.com/rusty.ms" class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></div>
+            <div class="col-xs-2 text-center"><a href="http://linkedin.com/rustyms" class="btn btn-social-icon btn-lg btn-linkedin"><span class="fa fa-linkedin"></span></a></div>
             <div class="col-xs-2 text-center"><a href="mailto:r@usty.ms" class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a></div>
         </div>
     </div>
@@ -121,8 +126,7 @@
         <div class="col-lg-8 col-sm-10 col-lg-offset-1">
             <div class="card hovercard">
                 <div class="card-background">
-                    <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
-                    <!-- http://lorempixel.com/850/280/people/9/ -->
+                    <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_banners/2923118602/1444589678/1500x500">
                 </div>
                 <div class="useravatar">
                     <img alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
@@ -157,16 +161,27 @@
             <div class="well">
                 <div class="tab-content">
                     <div class="tab-pane fade in active" id="tab1">
-                        <h3>About Me</h3>
+                        <h3>About Me</h3><hr />
+                        Rusty is a hardware IT guys by trade. Computers, servers, networking - you name it, Rusty can manage it, repair it, install it, or upgrade it. <br /> Additionally, Rusty has his PMP and a lot of project management experience including IT auditing, IT security, and disaster recovery. <br />
+                        At night, Rusty is: <ol>
+                            <li>Soccer Coach for U14, U16, and U8, E license.</li>
+                            <li>Soccer Ref, Grade 8.</li>
+                            <li>Soccer Board Member.</li>
+                            <li>PHP Developer, including Laravel and MVC frameworks.</li>
+                            <li>A father of a LOT of children.</li>
+                        </ol>
                     </div>
                     <div class="tab-pane fade in" id="tab2">
                         <h3>Current projects</h3>
+                            Coming soon.
                     </div>
                     <div class="tab-pane fade in" id="tab3">
                         <h3>Interests</h3>
+                            Coming soon.
                     </div>
                     <div class="tab-pane fade in" id="tab4">
                         <h3>Portfolio</h3>
+                            Coming soon.
                     </div>
                 </div>
             </div>

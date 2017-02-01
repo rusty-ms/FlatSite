@@ -28,7 +28,7 @@ Route::group(['domain' => 'nwraasoccer.com'], function () {
 });
 Route::group(['domain' => 'rusty.ms'], function () {
     Route::get('/', function () {
-        return "Rusty.ms is being redeveloped for new adventures. Please check back soon.";
+        return view('rustyms');
     });
     Route::get('/test', function () {
         return view('rustyms');
