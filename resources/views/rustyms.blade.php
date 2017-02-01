@@ -97,12 +97,13 @@
 </head>
 <body>
 <div class="container">
+    <div class="row ">&nbsp;</div>
     <div class="row ">
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-twitter"><span class="fa fa-twitter"></span></a></div>
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-github"><span class="fa fa-github"></span></a></div>
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-facebook"><span class="fa fa-facebook"></span></a></div>
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-linkedin"><span class="fa fa-linkedin"></span></a></div>
-            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-google"><span class="fa fa-google"></span></a></div>
+            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></div>
+            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-github"><span class="fa fa-github"></span></a></div>
+            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></div>
+            <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-linkedin"><span class="fa fa-linkedin"></span></a></div>
+            <div class="col-xs-2 text-center"><a href="mailto:r@usty.ms" class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a></div>
     </div>
     <div class="row">
 
