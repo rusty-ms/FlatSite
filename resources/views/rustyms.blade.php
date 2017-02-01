@@ -123,7 +123,7 @@
     </div>
     <div class="row">
 
-        <div class="col-lg-8 col-sm-10 col-lg-offset-1">
+        <div class="col-lg-8 col-sm-10 col-lg-offset-2">
             <div class="card hovercard">
                 <div class="card-background">
                     <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_banners/2923118602/1444589678/1500x500">
