@@ -21,6 +21,11 @@ Route::group(['domain' => 'crimm.me'], function () {
         return "Crimm is being redeveloped for new adventures. Please check back soon.";
     });
 });
+Route::group(['domain' => 'nwraasoccer.com'], function () {
+    Route::get('/', function () {
+        return "<meta http-equiv=\"refresh\" content=\"0; url=http://www.nwraa.com/Default.aspx?tabid=904970\" />";
+    });
+});
 Route::group(['domain' => 'rusty.ms'], function () {
     Route::get('/', function () {
         return "Rusty.ms is being redeveloped for new adventures. Please check back soon.";
