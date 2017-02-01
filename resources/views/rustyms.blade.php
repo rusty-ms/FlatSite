@@ -2,12 +2,13 @@
 <head>
 
     <style>
-        html {
+        html,body {
             background: url(/images/O9k8ESa.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+            width: 100%;
         }
 
         /* USER PROFILE PAGE */
@@ -107,7 +108,7 @@
 <div class="container">
     <div class="row ">&nbsp;</div>
     <div class="row ">
-        <div class="col-lg-10 col-sm-10 col-lg-offset-2">
+        <div class="col-lg-10 col-sm-10 col-lg-offset-1 text-center">
             <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></div>
             <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-github"><span class="fa fa-github"></span></a></div>
             <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></div>
