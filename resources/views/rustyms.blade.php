@@ -3,7 +3,7 @@
 
     <style>
         html {
-            background: url('http://i.imgur.com/O9k8ESa.jpg') no-repeat center center fixed;
+            background: url(/images/O9k8ESa.jpg) no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -107,15 +107,17 @@
 <div class="container">
     <div class="row ">&nbsp;</div>
     <div class="row ">
+        <div class="col-lg-10 col-sm-10 col-lg-offset-2">
             <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></div>
             <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-github"><span class="fa fa-github"></span></a></div>
             <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></div>
             <div class="col-xs-2 text-center"><a class="btn btn-social-icon btn-lg btn-linkedin"><span class="fa fa-linkedin"></span></a></div>
             <div class="col-xs-2 text-center"><a href="mailto:r@usty.ms" class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a></div>
+        </div>
     </div>
     <div class="row">
 
-        <div class="col-lg-10 col-sm-10 col-lg-offset-1">
+        <div class="col-lg-8 col-sm-10 col-lg-offset-1">
             <div class="card hovercard">
                 <div class="card-background">
                     <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
