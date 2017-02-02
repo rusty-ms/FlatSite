@@ -182,7 +182,58 @@
                     </div>
                     <div class="tab-pane fade in" id="tab4">
                         <h3>Portfolio</h3>
-                            Coming soon.
+                        <div class="row gallary-thumbs">
+
+                            <div class="col-sm-6 col-md-2 branding">
+                                <div class="gallary-item">
+                                    <div class="hover-bg">
+                                        <a href="#">
+                                            <div class="hover-text">
+                                                <h4>GunplaDB</h4>
+                                                <small>Gunpla Database</small>
+                                                <div class="clearfix"></div>
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="/images/gunpladb.png" class="img-responsive" alt="...">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-2 branding">
+                                <div class="gallary-item">
+                                    <div class="hover-bg">
+                                        <a href="#">
+                                            <div class="hover-text">
+                                                <h4>NWRAA Soccer</h4>
+                                                <small>Wordpress design & management</small>
+                                                <div class="clearfix"></div>
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="/images/nwraasoccer.png" class="img-responsive" alt="...">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-2 web">
+                                <div class="gallary-item">
+                                    <div class="hover-bg">
+                                        <a href="#">
+                                            <div class="hover-text">
+                                                <h4>More</h4>
+                                                <small>Coming soon...</small>
+                                                <div class="clearfix"></div>
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
                         <hr />
                         <b>Certifications:</b><ol>
                             <li>PMP</li>
