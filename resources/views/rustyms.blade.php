@@ -195,7 +195,6 @@
                                                 <h4>GunplaDB</h4>
                                                 <small>Gunpla Database</small>
                                                 <div class="clearfix"></div>
-                                                <i class="fa fa-plus"></i>
                                             </div>
                                             <img src="/images/gunpladb.png" class="img-responsive" alt="...">
                                         </a>
@@ -211,7 +210,6 @@
                                                 <h4>NWRAA Soccer</h4>
                                                 <small>Wordpress Design & Mgmt</small>
                                                 <div class="clearfix"></div>
-                                                <i class="fa fa-plus"></i>
                                             </div>
                                             <img src="/images/nwraasoccer.png" class="img-responsive" alt="...">
                                         </a>
@@ -227,7 +225,7 @@
                                                 <h4>More</h4>
                                                 <small>Coming soon...</small>
                                                 <div class="clearfix"></div>
-                                                <i class="fa fa-plus"></i>
+
                                             </div>
                                             <img src="http://placehold.it/660x450/CCC/FFF" class="img-responsive" alt="...">
                                         </a>
