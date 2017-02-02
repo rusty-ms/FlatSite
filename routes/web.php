@@ -30,13 +30,13 @@ Route::group(['domain' => 'rusty.ms'], function () {
     Route::get('/', function () {
         return view('rustyms');
     });
-    Route::get('/test', function () {
-        return view('rustyms');
-    });
 });
 Route::group(['domain' => 'pickup.nwraasoccer.com'], function () {
     Route::get('/', function () {
         return "Pickup is being redeveloped for new adventures. Please check back soon.";
+    });
+    Route::get('/test', function () {
+        return view('pickupnwraa');
     });
 });
 Route::group(['domain' => 'idealtechllc.com'], function () {
