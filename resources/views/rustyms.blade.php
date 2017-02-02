@@ -73,8 +73,8 @@
             padding:0 5px;
             font-size: 20px;
             line-height: 1;
-            color: #262626;
-            background-color: rgba(255, 255, 255, 0.1);
+            color: #FFF;
+            /*background-color: rgba(255, 255, 255, 0.1);*/
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             border-radius: 4px;
@@ -126,7 +126,7 @@
         <div class="col-lg-8 col-sm-10 col-lg-offset-2">
             <div class="card hovercard">
                 <div class="card-background">
-                    <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_banners/2923118602/1444589678/1500x500">
+                    <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
                 </div>
                 <div class="useravatar">
                     <img alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
@@ -148,7 +148,7 @@
                 </div>
                 <div class="btn-group" role="group">
                     <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                        <div class="hidden-xs">Updates</div>
+                        <div class="hidden-xs">Interests</div>
                     </button>
                 </div>
                 <div class="btn-group" role="group">
@@ -162,13 +162,14 @@
                 <div class="tab-content">
                     <div class="tab-pane fade in active" id="tab1">
                         <h3>About Me</h3><hr />
-                        Rusty is a hardware IT guys by trade. Computers, servers, networking - you name it, Rusty can manage it, repair it, install it, or upgrade it. <br /> Additionally, Rusty has his PMP and a lot of project management experience including IT auditing, IT security, and disaster recovery. <br />
-                        At night, Rusty is: <ol>
+                        Rusty is a hardware IT guy by trade. Computers, servers, networking, wireless, and even cellular - you name it; Rusty can manage it, repair it, install it, or upgrade it. Additionally, Rusty has his PMP and a lot of project management experience including IT auditing, IT security, and disaster recovery. <br />
+                        <br />At night, Rusty is: <ol>
                             <li>Soccer Coach for U14, U16, and U8, E license.</li>
                             <li>Soccer Ref, Grade 8.</li>
                             <li>Soccer Board Member.</li>
                             <li>PHP Developer, including Laravel and MVC frameworks.</li>
                             <li>A father of a LOT of children.</li>
+                            <li>Husband to a wonderful wife.</li>
                         </ol>
                     </div>
                     <div class="tab-pane fade in" id="tab2">
@@ -182,6 +183,22 @@
                     <div class="tab-pane fade in" id="tab4">
                         <h3>Portfolio</h3>
                             Coming soon.
+                        <hr />
+                        <b>Certifications:</b><ol>
+                            <li>PMP</li>
+                            <li>A+</li>
+                            <li>Project+</li>
+                            <li>Server+</li>
+                            <li>Security+</li>
+                            <li>Linux+</li>
+                            <li>OpenSUSE</li>
+                            <li>LPIC-1</li>
+                            <li>CCNA - Expired</li>
+                            <li>Grade 8 Referee</li>
+                            <li>U6/U8 Coaching License</li>
+                            <li>U10/U12 Coaching License</li>
+                            <li>E License from US Youth Soccer</li>
+                        </ol>
                     </div>
                 </div>
             </div>
