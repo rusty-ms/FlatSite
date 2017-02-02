@@ -71,7 +71,7 @@
         }
         .card.hovercard .card-info .card-title {
             padding:0 5px;
-            font-size: 20px;
+            font-size: 32px;
             line-height: 1;
             color: #FFF;
             /*background-color: rgba(255, 255, 255, 0.1);*/
