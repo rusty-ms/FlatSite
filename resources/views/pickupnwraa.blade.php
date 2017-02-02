@@ -41,6 +41,7 @@
                     Pickup Soccer
                 </a>
             </li>
+            <li>Share<br/><div class="addthis_inline_share_toolbox"></div></li>
             <li>
                 <a href="https://drive.google.com/file/d/0B2W3rhUQY7Wma0Y3WHNnb1VmOWc/edit?usp=sharing">Field Map</a>
             </li>
@@ -133,7 +134,7 @@
                     <li>We will always play 4 12-15 minute quarters to give everyone a chance to rest.</li>
                         <li>Fields will change occassionally depending on field usage. Main fields are 3 and 8. Check field map on the left.</li>
                     </ol>
-                    <h2>I'm an older adult or I'm out of share - Can I keep up?</h2>
+                    <h2>I'm an older adult or I'm out of shape - Can I keep up?</h2>
                         <ol>
                         <li>This is for fun. We play safe. You have chances to leave and get water. You are not required to stay the entire time</li>
                         </ol>
@@ -159,7 +160,7 @@
         $("#wrapper").toggleClass("toggled");
     });
 </script>
-
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561686f0dc2e95ba"></script>
 </body>
 
 </html>
