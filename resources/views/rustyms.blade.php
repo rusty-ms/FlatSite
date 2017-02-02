@@ -78,6 +78,8 @@
             -webkit-border-radius: 4px;
             -moz-border-radius: 4px;
             border-radius: 4px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
         }
         .card.hovercard .card-info {
             overflow: hidden;
@@ -184,7 +186,7 @@
                         <h3>Portfolio</h3>
                         <div class="row gallary-thumbs">
 
-                            <div class="col-sm-6 col-md-2 branding">
+                            <div class="col-sm-6 col-md-4 branding">
                                 <div class="gallary-item">
                                     <div class="hover-bg">
                                         <a href="#">
@@ -200,13 +202,13 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-2 branding">
+                            <div class="col-sm-6 col-md-4 branding">
                                 <div class="gallary-item">
                                     <div class="hover-bg">
                                         <a href="#">
                                             <div class="hover-text">
                                                 <h4>NWRAA Soccer</h4>
-                                                <small>Wordpress design & management</small>
+                                                <small>Wordpress Design & Mgmt</small>
                                                 <div class="clearfix"></div>
                                                 <i class="fa fa-plus"></i>
                                             </div>
@@ -216,7 +218,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 col-md-2 web">
+                            <div class="col-sm-6 col-md-4 web">
                                 <div class="gallary-item">
                                     <div class="hover-bg">
                                         <a href="#">
