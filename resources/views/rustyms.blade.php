@@ -177,7 +177,18 @@
                     </div>
                     <div class="tab-pane fade in" id="tab2">
                         <h3>Current projects</h3>
-                            Coming soon.
+                            <ol>
+                                <li><a href="http://pickup.nwraasoccer.com">Pickup League<a/></li>
+                                <li><a href="http://anime-planet.com">Anime Planet</a></li>
+                                <li><a href="http://debugge.com">Debugge</a></li>
+                                <li><a href="http://gunpladb.com">GunplaDB</a></li>
+                                <li><a href="http://idealtechllc.com">Ideal Technologies LLC</a></li>
+                                <li><a href="http://gaku.moe">Gaku</a></li>
+                                <li><a href="https://octobercms.com/theme/rusty-rustybootstrap4blank">Bootstrap OctoberCMS theme</a></li>
+                                <li>Coaching and reffing</li>
+                                <li>Currently studying and practicing Laravel and MVC frameworks</li>
+                                <li>Working on some other fun projects coming soon...</li>
+                            </ol>
                     </div>
                     <div class="tab-pane fade in" id="tab3">
                         <h3>Interests</h3>
