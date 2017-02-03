@@ -138,15 +138,14 @@
                     <li>Parents must sign a liability waiver if you didn't play D2 or D3 with an MSA affiliated club the previous season.</li>
                     <li>Currently: $0 in costs, but discussions with MSA may require a one-time registration fee for those not affiliated with MSA the previous season.</li>
                     </ol>
-                        <h2>Why?</h2>
-
-                    <h2>Pickup games during the offseasons are perfect for improving:</h2>
+                    <h2>Why? Simple answer: Pickup games during the offseasons are perfect for improving the following:</h2>
                     <ol>
                     <li>Stamina (when they would normally be sitting indoors)</li>
                     <li>Communication and teamwork with stronger and weaker players. Also helps break people out of their comfort zone.</li>
                     <li>Ball skills naturally by playing with others at or above their skill level.</li>
                     <li>Getting to meet the kids, parents, & coaches in the age groups you are moving up to.</li>
                     <li>Prepare you for different formations, play styles, and bigger or smaller fields.</li>
+                    <li>Helps us working folks have a fun thing to do to keep in shape.</li>
                     </ol>
                     <h2>When are games?</h2>
                     <ol>
