@@ -38,11 +38,10 @@
         <ul class="sidebar-nav">
             <li>
                 <a href="/">
-                    <img src="/images/nwraalogo.png" class="img-responsive" alt="NWRAA">
+                    <center><img src="/images/nwraalogo.png" class="img-responsive" alt="NWRAA" style="max-width: 150px;"></center>
                 </a>
             </li>
-            <li><a href="http://nwraa.com">NWRAA</a></li>
-            <li>
+            <li style="text-indent:0px;">
                 <div class="row">
                     <div class="col-lg-10 col-sm-10 col-sm-offset-2 text-center">
                         <div class="col-xs-3 text-center"><a href="https://twitter.com/home?status=Come%20join%20us%20at%20pickup%20games!%20http%3A//pickup.nwraasoccer.com" class="btn btn-social-icon btn-twitter">
@@ -57,6 +56,7 @@
                     </div>
                 </div>
             </li>
+            <li><a href="http://nwraa.com">NWRAA</a></li>
             <li>
                 <a href="https://drive.google.com/file/d/0B2W3rhUQY7Wma0Y3WHNnb1VmOWc/edit?usp=sharing">Field Map</a>
             </li>
