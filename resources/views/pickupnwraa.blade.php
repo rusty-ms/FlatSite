@@ -122,7 +122,7 @@
                     <u><b><h1 style="color:#ff0000">Next play times:<br />
                     <?php
                     $doc_id = "1HSpYSfP8_eAg3hlYml35CgGu5mrG4w80yoZ5_twMNLo";
-                    print getGoogleDoc($doc_id);
+                    echo getGoogleDoc($doc_id);
                     ?> </h1></b></u><hr />
                     <h1>Welcome to NWRAA's Pickup Soccer Site</h1>
                     <p><h2>What are pickup games?</h2>
