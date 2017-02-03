@@ -38,9 +38,11 @@
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
                 <a href="/">
-                    Pickup Soccer
+                    <img src="/images/nwraalogo.png" class="img-responsive" alt="NWRAA">
                 </a>
             </li>
+            <li><a href="/">Pickup Soccer</a></li>
+            <li><a href="http://nwraa.com">NWRAA</a></li>
             <li>Share<br/><div class="addthis_inline_share_toolbox"></div></li>
             <li>
                 <a href="https://drive.google.com/file/d/0B2W3rhUQY7Wma0Y3WHNnb1VmOWc/edit?usp=sharing">Field Map</a>
