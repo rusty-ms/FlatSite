@@ -107,6 +107,7 @@
                 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
                 <!--End mc_embed_signup-->
             </li>
+            <li><a href="http://rusty.ms">&copy 2016-2017 Rusty</a></li>
         </ul>
     </div>
     <!-- /#sidebar-wrapper -->
