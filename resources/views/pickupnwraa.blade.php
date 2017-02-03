@@ -43,13 +43,19 @@
             </li>
             <li><a href="http://nwraa.com">NWRAA</a></li>
             <li>
-
-                <div class="btn-group" role="group" aria-label="sharebtns">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//pickup.nwraasoccer.com" class="btn btn-primary" role="button">Share</a>
-                    <a href="https://twitter.com/home?status=Come%20join%20us%20at%20pickup%20games!%20http%3A//pickup.nwraasoccer.com" class="btn btn-info" role="button">Tweet</a>
-                    <a href="mailto:?&subject=Come to pikcup games!&body=Check%20out%20pickup%20games%20at%20NWRAA!%20http%3A//pickup.nwraasoccer.com" class="btn btn-danger" role="button">Email</a>
+                <div class="row">
+                    <div class="col-lg-10 col-sm-10 col-sm-offset-2 text-center">
+                        <div class="col-xs-3 text-center"><a href="https://twitter.com/home?status=Come%20join%20us%20at%20pickup%20games!%20http%3A//pickup.nwraasoccer.com" class="btn btn-social-icon btn-twitter">
+                            <span class="fa fa-twitter"></span>
+                            </a></div>
+                        <div class="col-xs-3 text-center"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//pickup.nwraasoccer.com" class="btn btn-social-icon btn-twitter">
+                            <span class="fa fa-facebook"></span>
+                            </a></div>
+                        <div class="col-xs-3 text-center"><a href="mailto:?&subject=Come to pikcup games!&body=Check%20out%20pickup%20games%20at%20NWRAA!%20http%3A//pickup.nwraasoccer.com" class="btn btn-social-icon btn-twitter">
+                            <span class="fa fa-google"></span>
+                            </a></div>
+                    </div>
                 </div>
-
             </li>
             <li>
                 <a href="https://drive.google.com/file/d/0B2W3rhUQY7Wma0Y3WHNnb1VmOWc/edit?usp=sharing">Field Map</a>
