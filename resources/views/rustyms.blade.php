@@ -150,11 +150,6 @@
                     </button>
                 </div>
                 <div class="btn-group" role="group">
-                    <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-                        <div class="hidden-xs">Interests</div>
-                    </button>
-                </div>
-                <div class="btn-group" role="group">
                     <button type="button" id="following" class="btn btn-default" href="#tab4" data-toggle="tab"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                         <div class="hidden-xs">Portfolio</div>
                     </button>
@@ -189,10 +184,6 @@
                                 <li>Currently studying and practicing Laravel and MVC frameworks</li>
                                 <li>Working on some other fun projects coming soon...</li>
                             </ol>
-                    </div>
-                    <div class="tab-pane fade in" id="tab3">
-                        <h3>Interests</h3>
-                            Coming soon.
                     </div>
                     <div class="tab-pane fade in" id="tab4">
                         <h3>Portfolio</h3>
@@ -266,6 +257,14 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+    <div class="row ">&nbsp;</div>
+    <div class="row ">
+        <div class="col-lg-10 col-sm-10 col-sm-offset-2 text-center">
+            <div class="col-xs-3 text-center">&copy 2017 Rusty</div>
+            <div class="col-xs-3 text-center">XX Open tasks</div>
+            <div class="col-xs-3 text-center">XX Open Github issues</div>
         </div>
     </div>
 </div>
