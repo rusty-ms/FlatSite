@@ -36,7 +36,7 @@
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <li class="sidebar-brand">
+            <li>
                 <a href="/">
                     <img src="/images/nwraalogo.png" class="img-responsive" alt="NWRAA">
                 </a>
