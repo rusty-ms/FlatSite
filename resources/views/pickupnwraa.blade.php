@@ -118,12 +118,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-                    <br /><hr />
-                    <u><b><h1 style="color:#ff0000">Next play times:<br />
+                    <hr />
                     <?php
                     $doc_id = "1HSpYSfP8_eAg3hlYml35CgGu5mrG4w80yoZ5_twMNLo";
                     echo getGoogleDoc($doc_id);
-                    ?> </h1></b></u><hr />
+                    ?><hr />
                     <h1>Welcome to NWRAA's Pickup Soccer Site</h1>
                     <p><h2>What are pickup games?</h2>
                     <ol>
@@ -158,7 +157,7 @@
                         <ol>
                         <li>This is for fun. We play safe. You have chances to leave and get water. You are not required to stay the entire time</li>
                         </ol>
-                            </p>
+                            </p><br />
                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
                 </div>
             </div>
