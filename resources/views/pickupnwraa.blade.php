@@ -118,7 +118,7 @@
                 <div class="col-lg-12">
                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
                     <br /><hr />
-                    <u><b><h1 style="color:#ff0000">Next play times:
+                    <u><b><h1 style="color:#ff0000">Next play times:<br />
                     <?php
                     $doc_id = "1HSpYSfP8_eAg3hlYml35CgGu5mrG4w80yoZ5_twMNLo";
                     print getGoogleDoc($doc_id);
