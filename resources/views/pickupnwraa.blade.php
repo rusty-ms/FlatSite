@@ -42,7 +42,15 @@
                 </a>
             </li>
             <li><a href="http://nwraa.com">NWRAA</a></li>
-            <li><div class="addthis_inline_share_toolbox"></div></li>
+            <li>
+
+                <div class="btn-group" role="group" aria-label="sharebtns">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//pickup.nwraasoccer.com" class="btn btn-primary" role="button">Share</a>
+                    <a href="https://twitter.com/home?status=Come%20join%20us%20at%20pickup%20games!%20http%3A//pickup.nwraasoccer.com" class="btn btn-info" role="button">Tweet</a>
+                    <a href="mailto:?&subject=Come to pikcup games!&body=Check%20out%20pickup%20games%20at%20NWRAA!%20http%3A//pickup.nwraasoccer.com" class="btn btn-danger" role="button">Email</a>
+                </div>
+
+            </li>
             <li>
                 <a href="https://drive.google.com/file/d/0B2W3rhUQY7Wma0Y3WHNnb1VmOWc/edit?usp=sharing">Field Map</a>
             </li>
@@ -106,11 +114,11 @@
                 <div class="col-lg-12">
                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
                     <br /><hr />
-                    <u><b><h1>Playing:</h1></b></u>
+                    <u><b><h1>Next play times: <font color="red">
                     <?php
                     $doc_id = "1HSpYSfP8_eAg3hlYml35CgGu5mrG4w80yoZ5_twMNLo";
                     print getGoogleDoc($doc_id);
-                    ?> <hr />
+                    ?> </font></h1></b></u><hr />
                     <h1>Welcome to NWRAA's Pickup Soccer Site</h1>
                     <p><h2>What are pickup games?</h2>
                     <ol>
@@ -168,7 +176,7 @@
         $("#wrapper").toggleClass("toggled");
     });
 </script>
-<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-561686f0dc2e95ba"></script>
+
 </body>
 
 </html>
