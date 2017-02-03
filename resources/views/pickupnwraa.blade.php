@@ -41,9 +41,8 @@
                     <img src="/images/nwraalogo.png" class="img-responsive" alt="NWRAA">
                 </a>
             </li>
-            <li><a href="/">Pickup Soccer</a></li>
             <li><a href="http://nwraa.com">NWRAA</a></li>
-            <li>Share<br/><div class="addthis_inline_share_toolbox"></div></li>
+            <li><div class="addthis_inline_share_toolbox"></div></li>
             <li>
                 <a href="https://drive.google.com/file/d/0B2W3rhUQY7Wma0Y3WHNnb1VmOWc/edit?usp=sharing">Field Map</a>
             </li>
@@ -106,6 +105,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    <br /><hr />
+                    <u><b><h1>Playing:</h1></b></u>
+                    <?php
+                    $doc_id = "1HSpYSfP8_eAg3hlYml35CgGu5mrG4w80yoZ5_twMNLo";
+                    print getGoogleDoc($doc_id);
+                    ?> <hr />
                     <h1>Welcome to NWRAA's Pickup Soccer Site</h1>
                     <p><h2>What are pickup games?</h2>
                     <ol>
@@ -167,3 +172,47 @@
 </body>
 
 </html>
+
+<?php
+// Based on http://www.realisingdesigns.com/2009/10/29/using-google-docs-as-a-quick-and-easy-cms/
+function getUrl($url, $expires = 5)
+{
+    $cache_file = __DIR__ . '/cache/' . preg_replace('~\W+~', '-', $url) . '.txt';
+    if( ! is_dir(__DIR__ . '/cache') AND ! mkdir(__DIR__ . '/cache')) {
+        die('Please create /cache directory');
+    }
+    if (file_exists($cache_file) && (filemtime($cache_file) > (time() - 60 * $expires ))) {
+        return file_get_contents($cache_file);
+    }
+    /*
+    $options = array(
+        'http'=>array(
+            'method'=> "GET",
+            'header'=>
+                    "Accept-language: en\r\nUser-Agent: Just A Simple Request-er :)\r\n" // i.e. An iPad
+                    /*
+                    //"Cookie: foo=bar\r\n" .  // check function.stream-context-create on php.net
+                    "User-Agent: Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.102011-10-16 20:23:10\r\n" // i.e. An iPad
+                    *
+        )
+    );
+    $file = file_get_contents($url, false, stream_context_create($options));
+    */
+    $file = file_get_contents($url);
+    // Our cache is out-of-date, so load the data from our remote server,
+    // and also save it over our cache for next time.
+    $file = file_get_contents($url);
+    file_put_contents($cache_file, $file, LOCK_EX);
+    return $file;
+}
+function getGoogleDoc($id)
+{
+    $content = getUrl("https://docs.google.com/document/pub?id=".$id);
+    $start = strpos($content,'<div id="contents">');
+    $end = strpos($content,'<div id="footer">');
+    $content = substr($content, $start, ($end-$start));
+    // Fix all embeded image references
+    $content = str_replace('src="', 'src="https://docs.google.com/document/', $content);
+    return $content;
+}
+?>
