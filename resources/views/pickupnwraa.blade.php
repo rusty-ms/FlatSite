@@ -86,8 +86,6 @@
                 <div id="mc_embed_signup">
                     <form action="//nwraasoccer.us14.list-manage.com/subscribe/post?u=8251f3053424e078255bb209f&amp;id=1ed55297c0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
-                            <h3>Join mailing list</h3>
-                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                             <div class="mc-field-group">
                                 <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
                                 </label>
@@ -120,11 +118,11 @@
                 <div class="col-lg-12">
                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
                     <br /><hr />
-                    <u><b><h1>Next play times: <font color="red">
+                    <u><b><h1 style="color:#ff0000">Next play times:
                     <?php
                     $doc_id = "1HSpYSfP8_eAg3hlYml35CgGu5mrG4w80yoZ5_twMNLo";
                     print getGoogleDoc($doc_id);
-                    ?> </font></h1></b></u><hr />
+                    ?> </h1></b></u><hr />
                     <h1>Welcome to NWRAA's Pickup Soccer Site</h1>
                     <p><h2>What are pickup games?</h2>
                     <ol>
