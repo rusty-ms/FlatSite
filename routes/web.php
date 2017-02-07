@@ -18,7 +18,7 @@ Route::group(['domain' => 'flatsite.dev.idealtechllc.com'], function () {
 });
 Route::group(['domain' => 'crimm.me'], function () {
     Route::get('/', function () {
-        return "Crimm is being redeveloped for new adventures. Please check back soon.";
+        return "<center><b>Crimm is no more. Sorry.</b></center>";
     });
 });
 Route::group(['domain' => 'nwraasoccer.com'], function () {
@@ -38,6 +38,6 @@ Route::group(['domain' => 'pickup.nwraasoccer.com'], function () {
 });
 Route::group(['domain' => 'idealtechllc.com'], function () {
     Route::get('/', function () {
-        return "Ideal is being redeveloped for new adventures. Please check back soon.";
+        return "<center><b>Ideal Technologies is closed for business at this time. If you'd like to contact Rusty, please visit <a href="http://rusty.ms">http://rusty.ms</a>. If you are looking for IT services, please visit <a href="http://pileum.com">Pileum</a>.</b></center>";
     });
 });
