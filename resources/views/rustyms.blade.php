@@ -115,15 +115,6 @@
 <body>
 <div class="container">
     <div class="row ">&nbsp;</div>
-    <div class="row ">
-        <div class="col-lg-10 col-sm-10 col-sm-offset-2 text-center">
-            <div class="col-xs-2 text-center"><a href="http://twitter.com/rustyinms"class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a></div>
-            <div class="col-xs-2 text-center"><a href="http://github.com/rustyms" class="btn btn-social-icon btn-lg btn-github"><span class="fa fa-github"></span></a></div>
-            <div class="col-xs-2 text-center"><a href="http://facebook.com/rusty.ms" class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a></div>
-            <div class="col-xs-2 text-center"><a href="http://linkedin.com/rustyms" class="btn btn-social-icon btn-lg btn-linkedin"><span class="fa fa-linkedin"></span></a></div>
-            <div class="col-xs-2 text-center"><a href="mailto:r@usty.ms" class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a></div>
-        </div>
-    </div>
     <div class="row">
 
         <div class="col-lg-8 col-sm-10 col-lg-offset-2">
@@ -179,6 +170,8 @@
                                 <li><a href="http://gunpladb.com">GunplaDB</a></li>
                                 <li><a href="http://idealtechllc.com">Ideal Technologies LLC</a></li>
                                 <li><a href="http://gaku.moe">Gaku</a></li>
+                                <li><a href="http://chimu.org">Chimu</a></li>
+                                <li><a href="#">As soon on (soon[tm])</a></li>
                                 <li><a href="https://octobercms.com/theme/rusty-rustybootstrap4blank">Bootstrap OctoberCMS theme</a></li>
                                 <li>Coaching and reffing</li>
                                 <li>Currently studying and practicing Laravel and MVC frameworks</li>
@@ -260,13 +253,13 @@
         </div>
     </div>
     <div class="row ">&nbsp;</div>
-    <div class="row ">
+    <!--<div class="row ">
         <div class="col-lg-10 col-sm-10 col-sm-offset-2 text-center">
             <div class="col-xs-3 text-center">&copy 2017 Rusty</div>
             <div class="col-xs-3 text-center">XX Open tasks</div>
             <div class="col-xs-3 text-center">XX Open Github issues</div>
         </div>
-    </div>
+    </div>-->
 </div>
 
 <!-- JS -->
