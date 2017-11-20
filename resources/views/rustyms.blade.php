@@ -120,7 +120,7 @@
         <div class="col-lg-8 col-sm-10 col-lg-offset-2">
             <div class="card hovercard">
                 <div class="card-background">
-                    <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
+                    <img class="card-bkimg" alt="" src="https://pbs.twimg.com/profile_images/925908097801080832/jwJ1Cjc4_400x400.jpg">
                 </div>
                 <div class="useravatar">
                     <img alt="" src="https://pbs.twimg.com/profile_images/544525336994525184/7RUKg-On_400x400.png">
